@@ -13,7 +13,8 @@
 <h1 align="center"> congatulations..</h1>
 <hr>
 <br>
-	<h1><h3> Server Side IP Address </h3><br>
+	<h1><h3> Aspring junior devops engineer </h3><br>
+<!--
 
 <% 
 String ip = "";
@@ -45,12 +46,15 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	</span>
 </div>
 -->
+
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
+
 <p align=center>KK FUNDA Training, Development Center.</p>
 <p align=center><small>Copyrights 2024 by <a href="google.com/">KK FUNDA</a> </small></p>
+-->
 
 </body>
 </html>
