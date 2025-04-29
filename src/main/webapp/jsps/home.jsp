@@ -9,8 +9,8 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to KK DevOps</h1>
-<h1 align="center"> KK FUNDA</h1>
+<h1 align="center">succesfully deploy a web application using jenkins with free style</h1>
+<h1 align="center"> congatulations..</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
@@ -29,6 +29,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <%out.print( "Client IP Address :: " + request.getRemoteAddr() ); %><br>
 <%out.print( "Client Name Host :: "+ request.getRemoteHost() );%><br></h1>
 <hr>
+<!--
 <div style="text-align: center;">
 	<span>
 		<img src="images/kkfunda.jpg" alt="" width="100">
@@ -43,6 +44,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<a href="mailto:kkeducation@gmail.com">Mail to KK FUNDA</a>
 	</span>
 </div>
+-->
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
