@@ -9,11 +9,14 @@
 </head>
 </head>
 <body>
-<h1 align="center">succesfully deploy a web application using jenkins with free style</h1>
+<h1 align="center">succesfully deploy a web application using jenkins(ci/cd) with free style </h1>
 <h1 align="center"> congatulations..</h1>
 <hr>
 <br>
-	<h1><h3> align="center>" aspring junior devops engineer </h3><br>
+	
+<h1><h3> aaspring junior devops engineer
+contact info : devopssiva2025@gmail.com
+</h3><br>
 <!--
 
 <% 
