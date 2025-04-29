@@ -51,6 +51,11 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 </div>
 -->
 
+
+<!--
+
+
+
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
@@ -114,3 +119,90 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 
 </body>
 </html>
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspiring Junior DevOps Engineer - Siva Krishna Chekuri</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            padding: 50px 20px;
+        }
+        .marquee {
+            margin-bottom: 30px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #ffeb3b;
+        }
+        .card {
+            background: #ffffff;
+            color: #333;
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #6a11cb;
+            margin-bottom: 10px;
+        }
+        p, li {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        a {
+            color: #2575fc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .objective {
+            background: #f0f2f5;
+            color: #333;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <marquee class="marquee" behavior="scroll" direction="left" scrollamount="8">
+            🚀 Aspiring Junior DevOps Engineer | Passionate about Automation, Cloud, and CI/CD 🚀
+        </marquee>
+
+        <div class="card">
+            <h1>Siva Krishna Chekuri</h1>
+            <p><strong>Contact:</strong> <a href="mailto:devopssiva2025@gmail.com">devopssiva2025@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/siva-krishna-chekuri-581b60225/" target="_blank">View Profile</a></p>
+
+            <div class="objective">
+                <h2>Career Objective</h2>
+                <p>
+                    Energetic and passionate Junior DevOps Engineer, aiming to leverage my skills in cloud platforms, automation, CI/CD pipelines, and containerization technologies to support agile development environments. 
+                    Eager to contribute to organizational success while continuing to learn and grow within a dynamic and forward-thinking team.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
