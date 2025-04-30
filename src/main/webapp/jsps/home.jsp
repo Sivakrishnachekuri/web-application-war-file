@@ -38,6 +38,14 @@
             font-size: 48px;
             margin-bottom: 20px;
         }
+        .pipeline-image {
+            margin-top: 30px;
+            border: 5px solid #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            max-width: 90%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -45,5 +53,7 @@
     <h1>Siva Krishna</h1>
     <h2>Successfully Set Up CI/CD Using Jenkins (Freestyle Project) ✅</h2>
     <p>CI/CD pipeline running smoothly with Jenkins Freestyle!<br>Build. Test. Deploy. Repeat. 🔁🛠️💡</p>
+    
+    <img src="74C59FC6-F1DC-4C99-A22F-68B52B28365D.PNG" alt="CI/CD Pipeline Diagram" class="pipeline-image">
 </body>
 </html>
