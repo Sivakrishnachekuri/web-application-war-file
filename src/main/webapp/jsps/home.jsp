@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Sivakrishna Chekuri - DevOps Engineer</title>
+  <title>Sivakrishna Chekuri - Aspiring DevOps Engineer</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <style>
@@ -32,7 +32,14 @@
       text-align: center;
       color: #1a202c;
       font-size: 28px;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 18px;
+      color: #16a34a;
+      margin-bottom: 20px;
     }
 
     .contact {
@@ -56,7 +63,7 @@
     }
 
     marquee {
-      background-color: #007acc;
+      background-color: #16a34a;
       color: #fff;
       padding: 12px;
       font-weight: bold;
@@ -110,6 +117,7 @@
 <body>
   <div class="container">
     <h1>Sivakrishna Chekuri</h1>
+    <div class="subtitle">Aspiring DevOps Engineer</div>
 
     <div class="contact">
       <p>Email: <a href="mailto:devopssiva2025@gmail.com">devopssiva2025@gmail.com</a></p>
