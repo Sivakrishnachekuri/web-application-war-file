@@ -79,7 +79,7 @@
 
     <div class="contact">
       <p>Email: <a href="mailto:devopssiva2025@gmail.com">devopssiva2025@gmail.com</a></p>
-      <p>Phone: <a href="tel:+447901371798">+44 7901 371798</a></p>
+      <p>Phone: <a href="tel:+447901371798">+44 7901 371798 ,+917032281154</a></p>
     </div>
 
     <div class="section-title">Skills</div>
