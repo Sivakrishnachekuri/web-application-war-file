@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -83,6 +82,19 @@
       line-height: 1.6;
     }
 
+    .jenkins-box {
+      background: #e3f2fd;
+      padding: 20px;
+      border-left: 6px solid #2196f3;
+      border-radius: 6px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .jenkins-box ol {
+      margin-left: 20px;
+    }
+
     .links {
       text-align: center;
       margin-top: 30px;
@@ -148,6 +160,21 @@
       <div class="section-title">Project</div>
       <div class="project-box">
         <strong>CI/CD Pipeline Setup:</strong> Designed and implemented a complete CI/CD pipeline using Jenkins. Integrated GitHub, Maven, SonarQube, Tomcat, and AWS (S3, IAM, VPC, CloudFormation) to automate build, test, and deployment processes for seamless delivery.
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Jenkins Tip</div>
+      <div class="jenkins-box">
+        <strong>How to create a new Freestyle job in Jenkins from an existing one:</strong>
+        <ol>
+          <li>Login to Jenkins Dashboard</li>
+          <li>Click <strong>"New Item"</strong></li>
+          <li>Enter a new job name (e.g., <code>MyJob-Copy</code>)</li>
+          <li>Select <strong>"Copy existing item"</strong></li>
+          <li>Type the name of the job to copy from</li>
+          <li>Click <strong>OK</strong> and customize as needed</li>
+        </ol>
       </div>
     </div>
 
