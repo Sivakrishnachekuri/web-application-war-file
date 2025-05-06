@@ -1,14 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Sivakrishna Chekuri - Aspiring DevOps Engineer</title>
+  <title>Sivakrishna Chekuri - Freestyle Jenkins Project</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Inter', sans-serif;
-      background: linear-gradient(to right, #e0f2f1, #ffffff);
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
       margin: 0;
       padding: 40px 20px;
       color: #2c3e50;
@@ -26,14 +25,14 @@
     h1 {
       text-align: center;
       font-size: 32px;
-      color: #1b5e20;
+      color: #00695c;
     }
 
     h2 {
       text-align: center;
-      font-size: 20px;
-      color: #388e3c;
-      margin-bottom: 20px;
+      font-size: 22px;
+      color: #00796b;
+      margin-bottom: 30px;
     }
 
     .contact {
@@ -52,10 +51,10 @@
     }
 
     .section-title {
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 600;
-      color: #2e7d32;
-      border-bottom: 2px solid #66bb6a;
+      color: #004d40;
+      border-bottom: 2px solid #4db6ac;
       padding-bottom: 6px;
       margin-bottom: 15px;
     }
@@ -64,19 +63,21 @@
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
+      margin-top: 10px;
     }
 
     .skill {
-      background-color: #a5d6a7;
-      color: #1b5e20;
+      background-color: #b2dfdb;
+      color: #004d40;
       padding: 8px 14px;
       border-radius: 20px;
       font-size: 14px;
       font-weight: 600;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     }
 
     .project-box {
-      background: #f1f8e9;
+      background: #e0f2f1;
       padding: 20px;
       border-radius: 8px;
       font-size: 15px;
@@ -92,7 +93,7 @@
       display: inline-block;
       margin: 0 12px;
       padding: 10px 20px;
-      background-color: #388e3c;
+      background-color: #00796b;
       color: white;
       text-decoration: none;
       border-radius: 6px;
@@ -101,7 +102,18 @@
     }
 
     .links a:hover {
-      background-color: #2e7d32;
+      background-color: #004d40;
+    }
+
+    .marquee {
+      margin: 30px 0;
+      background: #e0f2f1;
+      padding: 12px;
+      border-radius: 6px;
+      font-weight: bold;
+      color: #00695c;
+      font-size: 16px;
+      text-align: center;
     }
 
     @media (max-width: 600px) {
@@ -120,7 +132,7 @@
 <body>
   <div class="container">
     <h1>Sivakrishna Chekuri</h1>
-    <h2>Aspiring DevOps Engineer</h2>
+    <h2>Freestyle Jenkins Job – Project-Based Learning</h2>
 
     <div class="contact">
       <p>Email: <a href="mailto:devopssiva2025@gmail.com">devopssiva2025@gmail.com</a></p>
@@ -129,6 +141,13 @@
 
     <div class="section">
       <div class="section-title">Skills</div>
+
+      <div class="marquee">
+        <marquee behavior="scroll" direction="left" scrollamount="6">
+          Git | GitHub | Maven | SonarQube | Tomcat | Jenkins | AWS | S3 | IAM | VPC | CloudFormation
+        </marquee>
+      </div>
+
       <div class="skills">
         <div class="skill">Git</div>
         <div class="skill">GitHub</div>
@@ -145,9 +164,16 @@
     </div>
 
     <div class="section">
-      <div class="section-title">Project</div>
+      <div class="section-title">Project Overview</div>
       <div class="project-box">
-        <strong>CI/CD Pipeline Setup:</strong> Designed and implemented a complete CI/CD pipeline using Jenkins. Integrated GitHub, Maven, SonarQube, Tomcat, and AWS (S3, IAM, VPC, CloudFormation) to automate build, test, and deployment processes for seamless delivery.
+        <strong>Freestyle Jenkins Job CI/CD Setup:</strong><br>
+        As part of project-based learning, I created a freestyle job in Jenkins to build a CI/CD pipeline.<br><br>
+        - Integrated <strong>GitHub</strong> for source code management<br>
+        - Configured <strong>Maven</strong> to build the Java project<br>
+        - Applied <strong>SonarQube</strong> for code quality checks<br>
+        - Deployed to <strong>Tomcat</strong> server<br>
+        - Used <strong>AWS (S3, IAM, VPC, CloudFormation)</strong> to simulate real-world cloud deployment<br><br>
+        This hands-on project helped solidify my understanding of core DevOps concepts.
       </div>
     </div>
 
