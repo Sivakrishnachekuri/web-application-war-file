@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sivakrishna Chekuri - Freestyle Jenkins Project</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
@@ -105,15 +106,28 @@
       background-color: #004d40;
     }
 
-    .marquee {
-      margin: 30px 0;
+    .marquee-wrapper {
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
       background: #e0f2f1;
-      padding: 12px;
       border-radius: 6px;
-      font-weight: bold;
+      padding: 12px;
+      margin: 30px 0;
       color: #00695c;
       font-size: 16px;
-      text-align: center;
+      font-weight: bold;
+    }
+
+    .marquee-content {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 12s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(-100%, 0); }
     }
 
     @media (max-width: 600px) {
@@ -130,22 +144,24 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Sivakrishna Chekuri</h1>
-    <h2>Freestyle Jenkins Job – Project-Based Learning</h2>
+  <main class="container">
+    <header>
+      <h1>Sivakrishna Chekuri</h1>
+      <h2>Freestyle Jenkins Job – Project-Based Learning</h2>
+    </header>
 
-    <div class="contact">
+    <section class="contact">
       <p>Email: <a href="mailto:devopssiva2025@gmail.com">devopssiva2025@gmail.com</a></p>
       <p>Phone: <a href="tel:+447901371798">+44 7901 371798</a></p>
-    </div>
+    </section>
 
-    <div class="section">
+    <section class="section">
       <div class="section-title">Skills</div>
 
-      <div class="marquee">
-        <marquee behavior="scroll" direction="left" scrollamount="6">
+      <div class="marquee-wrapper" aria-label="Scrolling list of DevOps skills">
+        <div class="marquee-content">
           Git | GitHub | Maven | SonarQube | Tomcat | Jenkins | AWS | S3 | IAM | VPC | CloudFormation
-        </marquee>
+        </div>
       </div>
 
       <div class="skills">
@@ -161,9 +177,9 @@
         <div class="skill">VPC</div>
         <div class="skill">CloudFormation</div>
       </div>
-    </div>
+    </section>
 
-    <div class="section">
+    <section class="section">
       <div class="section-title">Project Overview</div>
       <div class="project-box">
         <strong>Freestyle Jenkins Job CI/CD Setup:</strong><br>
@@ -175,12 +191,12 @@
         - Used <strong>AWS (S3, IAM, VPC, CloudFormation)</strong> to simulate real-world cloud deployment<br><br>
         This hands-on project helped solidify my understanding of core DevOps concepts.
       </div>
-    </div>
+    </section>
 
-    <div class="links">
-      <a href="https://github.com/Sivakrishnachekuri" target="_blank">GitHub</a>
-      <a href="http://linkedin.com/in/siva-krishna-chekuri-581b60225" target="_blank">LinkedIn</a>
-    </div>
-  </div>
+    <footer class="links">
+      <a href="https://github.com/Sivakrishnachekuri" target="_blank" rel="noopener">GitHub</a>
+      <a href="http://linkedin.com/in/siva-krishna-chekuri-581b60225" target="_blank" rel="noopener">LinkedIn</a>
+    </footer>
+  </main>
 </body>
 </html>
