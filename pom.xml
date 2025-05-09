@@ -5,7 +5,7 @@
 	<groupId>com.kk</groupId>
 	<artifactId>maven-web-application-kkfunda</artifactId>
 	<packaging>war</packaging>
-	<version>11.00.00-RELEASE</version>
+	<version>12.00.00-RELEASE</version>
 	
 	<name>maven-web-application</name>
 
