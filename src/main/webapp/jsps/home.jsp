@@ -8,8 +8,8 @@
   <style>
     body {
       font-family: 'Inter', sans-serif;
-      background: #fff59d; /* Light yellow background */
-      color: #212121; /* Dark text for readability */
+      background: #1976D2; /* Blue background */
+      color: #ffffff; /* White text for contrast */
       margin: 0;
       padding: 40px 20px;
     }
@@ -18,14 +18,14 @@
       max-width: 850px;
       margin: auto;
       padding: 40px;
-      background-color: #fffde7; /* Slightly lighter yellow container */
+      background-color: #388E3C; /* Green container */
       border-radius: 12px;
       box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
     }
 
     h1, h2 {
       text-align: center;
-      color: #33691e;
+      color: #ffffff; /* White text */
     }
 
     .contact, .section {
@@ -34,17 +34,17 @@
     }
 
     .contact a {
-      color: #1b5e20;
+      color: #ffffff;
       text-decoration: none;
     }
 
     .section-title {
       font-size: 20px;
       font-weight: 600;
-      border-bottom: 2px solid #33691e;
+      border-bottom: 2px solid #ffffff; /* White underline */
       padding-bottom: 6px;
       margin-bottom: 20px;
-      color: #1b5e20;
+      color: #ffffff;
     }
 
     .skills {
@@ -55,8 +55,8 @@
     }
 
     .skill {
-      background-color: #fbc02d;
-      color: #212121;
+      background-color: #66BB6A; /* Lighter green for skills */
+      color: #ffffff;
       padding: 8px 14px;
       border-radius: 20px;
       font-size: 14px;
@@ -64,14 +64,14 @@
     }
 
     .project-box {
-      background: #fffde7;
+      background: #388E3C; /* Green background for project boxes */
       padding: 20px;
       border-radius: 8px;
       font-size: 15px;
       line-height: 1.6;
-      color: #212121;
+      color: #ffffff;
       text-align: left;
-      border: 1px solid #fbc02d;
+      border: 1px solid #66BB6A; /* Lighter green border */
     }
 
     .links {
@@ -82,8 +82,8 @@
     .links a {
       margin: 0 12px;
       padding: 10px 20px;
-      background-color: #fbc02d;
-      color: #212121;
+      background-color: #66BB6A; /* Light green for links */
+      color: #ffffff;
       text-decoration: none;
       border-radius: 6px;
       font-weight: 600;
