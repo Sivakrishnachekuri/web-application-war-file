@@ -6,89 +6,97 @@
   <title>Sivakrishna Chekuri - DevOps Engineer Resume (UK)</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    /* Global styles */
     body {
       font-family: 'Inter', sans-serif;
-      background: #1976D2; /* Blue background */
-      color: #ffffff; /* White text for contrast */
+      background: #121212; /* Dark background */
+      color: #E0E0E0; /* Light text color */
       margin: 0;
       padding: 40px 20px;
     }
 
+    /* Main container styles */
     .container {
-      max-width: 850px;
+      max-width: 900px;
       margin: auto;
       padding: 40px;
-      background-color: #388E3C; /* Green container */
-      border-radius: 12px;
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      background-color: #2C2C2C; /* Darker container */
+      border-radius: 15px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
     }
 
     h1, h2 {
       text-align: center;
-      color: #ffffff; /* White text */
+      color: #00B0FF; /* Bright blue accent */
     }
 
-    .contact, .section {
+    /* Contact section styles */
+    .contact {
       text-align: center;
       margin-bottom: 30px;
     }
 
     .contact a {
-      color: #ffffff;
+      color: #00B0FF; /* Bright blue for links */
       text-decoration: none;
     }
 
+    /* Section title styles */
     .section-title {
-      font-size: 20px;
+      font-size: 22px;
       font-weight: 600;
-      border-bottom: 2px solid #ffffff; /* White underline */
-      padding-bottom: 6px;
+      border-bottom: 2px solid #00B0FF; /* Blue underline */
+      padding-bottom: 8px;
       margin-bottom: 20px;
-      color: #ffffff;
+      color: #00B0FF;
     }
 
+    /* Skills section styles */
     .skills {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 12px;
       justify-content: center;
     }
 
     .skill {
-      background-color: #66BB6A; /* Lighter green for skills */
+      background-color: #1E88E5; /* Blue background for skills */
       color: #ffffff;
-      padding: 8px 14px;
+      padding: 10px 16px;
       border-radius: 20px;
       font-size: 14px;
       font-weight: 600;
     }
 
+    /* Project box styles */
     .project-box {
-      background: #388E3C; /* Green background for project boxes */
+      background: #2C2C2C; /* Dark background for project box */
       padding: 20px;
-      border-radius: 8px;
+      border-radius: 10px;
       font-size: 15px;
       line-height: 1.6;
-      color: #ffffff;
+      color: #E0E0E0;
       text-align: left;
-      border: 1px solid #66BB6A; /* Lighter green border */
+      border: 1px solid #00B0FF; /* Blue border */
     }
 
+    /* Links section styles */
     .links {
       text-align: center;
       margin-top: 30px;
     }
 
     .links a {
-      margin: 0 12px;
-      padding: 10px 20px;
-      background-color: #66BB6A; /* Light green for links */
+      margin: 0 15px;
+      padding: 12px 24px;
+      background-color: #00B0FF; /* Blue background for links */
       color: #ffffff;
       text-decoration: none;
       border-radius: 6px;
       font-weight: 600;
     }
 
+    /* Responsive design for mobile */
     @media (max-width: 600px) {
       .skills {
         flex-direction: column;
@@ -136,12 +144,12 @@
       <div class="section-title">Project: Jenkins CI/CD Pipeline</div>
       <div class="project-box">
         <strong>Freestyle Jenkins Job CI/CD Setup:</strong><br><br>
-        - Created a freestyle Jenkins job to automate the build, test, and deployment stages<br>
-        - Integrated <strong>GitHub</strong> for version control and webhook-based triggers<br>
-        - Configured <strong>Maven</strong> for project build and dependencies<br>
-        - Enforced code quality with <strong>SonarQube</strong> static analysis<br>
-        - Deployed artifacts to a <strong>Tomcat</strong> application server<br>
-        - Utilised <strong>AWS (S3, IAM, VPC, CloudFormation)</strong> to mimic production environment infrastructure<br><br>
+        - Created a freestyle Jenkins job to automate the build, test, and deployment stages.<br>
+        - Integrated <strong>GitHub</strong> for version control and webhook-based triggers.<br>
+        - Configured <strong>Maven</strong> for project build and dependencies.<br>
+        - Enforced code quality with <strong>SonarQube</strong> static analysis.<br>
+        - Deployed artifacts to a <strong>Tomcat</strong> application server.<br>
+        - Utilised <strong>AWS (S3, IAM, VPC, CloudFormation)</strong> to mimic production environment infrastructure.<br><br>
         This project mirrors real-world CI/CD practices and deepened my DevOps toolchain knowledge.
       </div>
     </div>
