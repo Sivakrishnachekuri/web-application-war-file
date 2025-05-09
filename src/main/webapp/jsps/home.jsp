@@ -8,8 +8,8 @@
   <style>
     body {
       font-family: 'Inter', sans-serif;
-      background: #000000;
-      color: #f0f0f0;
+      background: #fff59d; /* Light yellow background */
+      color: #212121; /* Dark text for readability */
       margin: 0;
       padding: 40px 20px;
     }
@@ -18,14 +18,14 @@
       max-width: 850px;
       margin: auto;
       padding: 40px;
-      background-color: #121212;
+      background-color: #fffde7; /* Slightly lighter yellow container */
       border-radius: 12px;
-      box-shadow: 0 6px 16px rgba(255,255,255,0.05);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
     }
 
     h1, h2 {
       text-align: center;
-      color: #00e676;
+      color: #33691e;
     }
 
     .contact, .section {
@@ -34,17 +34,17 @@
     }
 
     .contact a {
-      color: #64ffda;
+      color: #1b5e20;
       text-decoration: none;
     }
 
     .section-title {
       font-size: 20px;
       font-weight: 600;
-      border-bottom: 2px solid #00e676;
+      border-bottom: 2px solid #33691e;
       padding-bottom: 6px;
       margin-bottom: 20px;
-      color: #ffffff;
+      color: #1b5e20;
     }
 
     .skills {
@@ -55,8 +55,8 @@
     }
 
     .skill {
-      background-color: #1b5e20;
-      color: #c8e6c9;
+      background-color: #fbc02d;
+      color: #212121;
       padding: 8px 14px;
       border-radius: 20px;
       font-size: 14px;
@@ -64,13 +64,14 @@
     }
 
     .project-box {
-      background: #1e1e1e;
+      background: #fffde7;
       padding: 20px;
       border-radius: 8px;
       font-size: 15px;
       line-height: 1.6;
-      color: #f0f0f0;
+      color: #212121;
       text-align: left;
+      border: 1px solid #fbc02d;
     }
 
     .links {
@@ -81,8 +82,8 @@
     .links a {
       margin: 0 12px;
       padding: 10px 20px;
-      background-color: #00e676;
-      color: #000;
+      background-color: #fbc02d;
+      color: #212121;
       text-decoration: none;
       border-radius: 6px;
       font-weight: 600;
