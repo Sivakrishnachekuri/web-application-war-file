@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sivakrishna Chekuri - DevOps Engineer</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -55,14 +56,26 @@
       padding-bottom: 5px;
     }
 
-    marquee {
+    .skills-marquee-wrapper {
+      overflow: hidden;
       background-color: #007acc;
-      color: #fff;
-      padding: 12px;
-      font-weight: bold;
       border-radius: 6px;
       margin: 15px 0;
+    }
+
+    .skills-marquee {
+      display: inline-block;
+      white-space: nowrap;
+      animation: scroll-left 15s linear infinite;
+      padding: 12px 0;
+      color: #ffffff;
+      font-weight: bold;
       font-size: 16px;
+    }
+
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
     }
 
     .project {
@@ -108,32 +121,39 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <main class="container">
     <h1>Sivakrishna Chekuri</h1>
 
-    <div class="contact">
+    <section class="contact">
       <p>Email: <a href="mailto:devopssiva2025@gmail.com">devopssiva2025@gmail.com</a></p>
       <p>Phone: <a href="tel:+447901371798">+44 7901 371798</a></p>
-    </div>
+    </section>
 
-    <div class="section-title">Skills</div>
-    <marquee behavior="scroll" direction="left" scrollamount="5">
-      Git &nbsp;&nbsp; GitHub &nbsp;&nbsp; Maven &nbsp;&nbsp; SonarQube &nbsp;&nbsp; Tomcat &nbsp;&nbsp; Jenkins &nbsp;&nbsp; AWS &nbsp;&nbsp; S3 &nbsp;&nbsp; IAM &nbsp;&nbsp; VPC &nbsp;&nbsp; CloudFormation
-    </marquee>
+    <section>
+      <div class="section-title">Skills</div>
+      <div class="skills-marquee-wrapper">
+        <div class="skills-marquee">
+          Git &nbsp;&nbsp; GitHub &nbsp;&nbsp; Maven &nbsp;&nbsp; SonarQube &nbsp;&nbsp; Tomcat &nbsp;&nbsp;
+          Jenkins &nbsp;&nbsp; AWS &nbsp;&nbsp; S3 &nbsp;&nbsp; IAM &nbsp;&nbsp; VPC &nbsp;&nbsp; CloudFormation
+        </div>
+      </div>
+    </section>
 
-    <div class="section-title">Project</div>
-    <div class="project">
-      <strong>CI/CD Pipeline Setup:</strong> Designed and implemented a complete CI/CD pipeline using Jenkins. Integrated tools such as GitHub, Maven, SonarQube, Tomcat, and AWS services (S3, IAM, VPC, CloudFormation) to automate the build, test, and deployment processes.
-    </div>
+    <section>
+      <div class="section-title">Project</div>
+      <div class="project">
+        <strong>CI/CD Pipeline Setup:</strong> Designed and implemented a complete CI/CD pipeline using Jenkins. Integrated tools such as GitHub, Maven, SonarQube, Tomcat, and AWS services (S3, IAM, VPC, CloudFormation) to automate the build, test, and deployment processes.
+      </div>
+    </section>
 
-    <div class="links">
-      <a href="https://github.com/Sivakrishnachekuri" target="_blank">
+    <section class="links">
+      <a href="https://github.com/Sivakrishnachekuri" target="_blank" aria-label="GitHub Profile">
         <i class="fab fa-github"></i>GitHub
       </a>
-      <a href="http://linkedin.com/in/siva-krishna-chekuri-581b60225" target="_blank">
+      <a href="http://linkedin.com/in/siva-krishna-chekuri-581b60225" target="_blank" aria-label="LinkedIn Profile">
         <i class="fab fa-linkedin"></i>LinkedIn
       </a>
-    </div>
-  </div>
+    </section>
+  </main>
 </body>
 </html>
